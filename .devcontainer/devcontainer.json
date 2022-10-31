@@ -1,0 +1,23 @@
+{
+    "postAttachCommand": {
+        "server": "rails server",
+    },
+    "portsAttributes": {
+        "3000": {
+            "label": "Application",
+            "onAutoForward": "openPreview"
+        }
+    },
+    "customizations": {
+        "codespaces": {
+            "openFiles": ["config/routes.rb", "README.md"]
+        },
+        "vscode": {
+            "extensions": [
+                "rebornix.Ruby"
+            ],
+        }
+    },
+    "onCreateCommand": "bundle install --local",
+    "postCreateCommand": ""
+  }
